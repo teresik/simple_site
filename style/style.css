@@ -5,10 +5,10 @@
     --color-white: #FFFFFF;
     --color-gray-light: #EEEFF1;
 
-    --font-size: 16px;
+    --font-size: 13px;
     --font-family: 'Roboto', sans-serif;
 
-    --letter-spacing: 0.1em;
+    --letter-spacing: -0.1em;
 
     --line-height: 1.64;
     --line-height-lg: ;
@@ -17,7 +17,7 @@
     --container-primary: 1110px;
     --container-secondary: 540px;
 
-    --gap: 20px;
+    --gap: 23px;
     --gap-sm: calc(var(--gap) * 0.5);
     --gap-lg: calc(var(--gap) * 1.5);
     --gap-xl: calc(var(--gap) * 2);
@@ -34,19 +34,20 @@
 html{
     font-family: var(--font-family);
     font-size: var(--font-size);
-    font-weight: 400;
+    font-weight: 500;
     line-height: var(--line-height);
 }
 body{
     margin: 0;
 }
 h1{
-    font-size: 3rem;
+    font-size: 2.95rem;
     font-weight: 500;
     line-height:var(--line-height-sm);
+    margin-left: -0.08em;
 }
 h2{
-    font-size: 2rem;
+    font-size: 26px;
     font-weight: 500;
     line-height: var(--line-height-sm);
 }
@@ -82,24 +83,22 @@ a{
 /* header section*/
 .header {
     background-color: var(--color-gray-light);
-    padding-top: 79px;
+    padding-top: 50px;
     padding-bottom: 141px;
 }
 /* navbar section */
 .navbar {
-    margin-bottom: 162px;
+    margin-bottom: 114px;
 }
 .navbar__list {
     display: flex;
     flex-wrap: wrap;
     columns: var(--gap);
-    margin-left: -0.75em;
-}
-.navbar__item {
+    margin-left: -1.6em;
 }
 .navbar__link{
     display: block;
-    padding: 0.5em 0.75em;
+    padding: 0.5em 1.55em;
     text-transform: uppercase;
 }
 .navbar__link--active{
@@ -114,56 +113,64 @@ a{
     max-width: var(--container-secondary);
 }
 .hero__title {
-    margin-bottom: 60px;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .hero__description {
     color: var(--color-secondary);
-    margin-bottom: 65px;
+    margin-bottom: 47px;
+    width: 420px;
 }
 .hero__btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 225px;
-    min-height: 65px;
+    min-width: 178px;
+    min-height: 50px;
     background-color: var(--color-primary);
     text-transform: uppercase;
     color: var(--color-white);
     padding: 0.5em;
+    margin-left: 0.06em;
 }
 /* Section - common for About and Process*/
 section {
     padding-top: 100px;
-    padding-bottom: 123px;
+    padding-bottom: 72px;
     text-align: center;
+    margin-left: -179px;
 }
 .section__title {
     color: var(--color-black);
-    margin-bottom: 50px;
+    margin-bottom: 28px;
+    margin-left: 25px;
 }
 .section__description {
     color: var(--color-secondary);
+    margin-left: 73px;
+    width: 417px;
 }
 /* about section */
 .about {
     background-color: var(--color-white);
+    padding-top: 87px;
 }
 /*process section*/
 .process {
     background-color: var(--color-gray-light);
+    padding-top: 92px;
 }
-
 /*footer section*/
 .footer {
     background-color: var(--color-primary);
     color:var(--color-white);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 48px;
+    padding-bottom: 44px;
 }
 .footer__title{
     font-size: 1.3125rem;
     font-weight: 500;
-    margin-bottom:10px;
+    margin-bottom:5px;
 }
 .footer__description{
     font-size: 0.8125rem;
@@ -172,46 +179,39 @@ section {
 .experience {
     background-color: var(--color-primary);
     color:var(--color-white);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 78px;
+    padding-bottom: 66px;
 }
-
-.experience__title {
-}
-
 .experience__container {
     display: flex;
     justify-content: space-between;
-    gap: var(--gap-xl)
+    padding-left: 120px;
+    padding-right: 125px;
 }
-
 .experience__item {
     display: flex;
-
 }
-
 .experience-item__description {
+    margin-left: -10px;
 }
-
 .experience-item__number {
     font-size: 1.3125rem;
     font-weight: 500;
-    margin-top: -5px;
 }
-
 .experience-item__lable {
     margin-left: 20px;
 }
-
 .experience-item__image {
     order: -1;
 }
 .video__container{
-    margin-top: 57px;
+    margin-top: 37px;
+    margin-left: 17px;
 }
 .section__video{
-    width:var(--container-primary);
-    height: 600px;
+    width:887px;
+    height: 480px;
 }
-
-
+.footer-item__description{
+    margin-left: 12px;
+}
