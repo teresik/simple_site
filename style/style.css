@@ -229,8 +229,37 @@ a{
 .video__container{
     margin-top: 47px;
     padding-bottom: 100px;
+    width: 100%;
 }
 .section__video{
-    width: 1110px;
+    width: 100%;
     height: 600px;
+}
+@media (max-width: 980px) {
+    .experience-item {
+        flex-basis: 28%;
+        justify-content: center;
+    }
+    .section__video {
+        height: 550px;
+    }
+}
+
+@media (max-width: 661px) {
+    .navbar__list {
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+    .content {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .section__video {
+        height: 350px;
+    }
 }
