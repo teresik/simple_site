@@ -232,8 +232,8 @@ a{
     width: 100%;
 }
 .section__video{
-    width: 100%;
-    height: 600px;
+    width: 85.2535%;
+    height: auto;
 }
 @media (max-width: 980px) {
     .experience-item {
@@ -258,8 +258,10 @@ a{
     }
 }
 
-@media (max-width: 550px) {
-    .section__video {
-        height: 350px;
+@media (min-width: 375px) {
+    .video__container{
+        margin-top: -97px;
+        padding-bottom: 0;
+        width: 100%;
     }
 }
